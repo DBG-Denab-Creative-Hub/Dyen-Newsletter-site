@@ -1,0 +1,498 @@
+@media all and (min-width:300px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 0.5rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 0.7rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 1.5rem;
+        width: 14rem;
+        margin-top: 2.5rem;
+        margin-left:0.5rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: -10.8rem;
+        top: -1.95rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.12rem;
+        padding: 0.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 0.5rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+
+@media all and (min-width:400px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 0.5rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 0.7rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 1.5rem;
+        width: 14rem;
+        margin-top: 2.5rem;
+        margin-left:3rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: -13.2rem;
+        top: -1.95rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.12rem;
+        padding: 0.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 0.5rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+@media all and (min-width:576px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0.5rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 0.7rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 1.5rem;
+        width: 17rem;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: 4rem;
+        top: -0.1rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.12rem;
+        padding: 0.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 0.5rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+@media all and (min-width:768px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0.5rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 0.7rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 1.5rem;
+        width: 17rem;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: 4rem;
+        top: -0.1rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.12rem;
+        padding: 0.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 0.5rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+
+/*screen 991px*/
+@media all and (min-width:991px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 7rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 1.3rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 5.5rem;
+        width: 30rem;
+        margin-left: 3.5rem;
+        padding: 2rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: -24.9rem;
+        top: -5rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.2rem;
+        padding: 1.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+@media all and (min-width:1061px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0.5rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 0.7rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 1.5rem;
+        width: 17rem;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: 4rem;
+        top: -0.1rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.12rem;
+        padding: 0.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 0.5rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+
+@media all and (min-width:1280px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 4rem 7rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align:left;
+        line-height: 3.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 1.3rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 5.5rem;
+        width: 30rem;
+        margin-left: 2.5rem;
+        padding: 1rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: -23.9rem;
+        top: -5rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.2rem;
+        padding: 1.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
+
+
+
+@media all and (min-width:1440px) {
+
+    .container {
+        margin: 17% 8%;
+        background: linear-gradient(45deg, #201e10, black);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4rem 7rem;
+        border-radius: 2rem;
+    }
+
+    h1 {
+        font-family: poppins;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align:left;
+        line-height: 3.5rem;
+    }
+
+    input[type=email] {
+        font-family: poppins;
+        font-size: 1.3rem;
+        color: white;
+        background: linear-gradient(45deg, #11100b, #000000);
+        border: 1px solid #ff9900;
+        border: 1px solid white;
+        border-radius: 0.15rem;
+        height: 5.5rem;
+        width: 30rem;
+        margin-left: 2.5rem;
+        padding: 2rem;
+    }
+
+    input[type=email]:focus {
+        border-color: #ff9900;
+    }
+
+
+    button {
+        position: relative;
+        right: -23.9rem;
+        top: -5rem;
+        background-color: #FFC200;
+        border: none;
+        border-radius: 0.2rem;
+        padding: 1.5rem;
+        font-family: poppins;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    button:hover {
+        color: white;
+        font-weight: 300;
+    }
+}
