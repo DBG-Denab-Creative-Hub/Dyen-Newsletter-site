@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.65 105.65">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 10.21px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fdc20f;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-2" cx="52.83" cy="52.83" r="52.83"/>
+      <rect class="cls-3" x="28.5" y="39.4" width="48.65" height="26.86"/>
+      <polygon class="cls-4" points="68.77 45.85 67.02 45.85 67.02 43.74 39.12 43.74 39.12 45.85 36.17 45.85 36.17 59.63 37.92 59.63 37.92 61.74 67.02 61.74 67.02 59.63 68.77 59.63 68.77 45.85"/>
+      <text class="cls-1" transform="translate(43.73 56.16) scale(1.09 1)"><tspan x="0" y="0">100</tspan></text>
+    </g>
+  </g>
+</svg>

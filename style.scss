@@ -1,14 +1,13 @@
-@font-face {
-    font-family: poppins;
-    src: url(fonts/Poppins-Regular.ttf);
-}
-
 $colors: (
-    primary-colors:#FFC200
+    primary-colors: #FFC200,
+    primary-light-colors: #FFEDB4,
+    primary-bg-color: #fcfbfb,
+    secondary-bg-color: #f8f8f8,
+    gradient-left:#ededf7,
 );
 
-@function item ($color-name) {
-    @return map-get($colors, $color-name)
+@function item($color-name) {
+    @return map-get($colors, $color-name);
 }
 
 * {
@@ -18,17 +17,96 @@ $colors: (
 }
 
 body {
-    background-color: rgb(253, 255, 248);
+    background: item("secondary-bg-color");
+    font-family: poppins;
 }
 
+// nav section
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    nav {
+        display: flex;
+        justify-content:space-between;
+
+        .together {
+            display: flex;
+        }
+    }
+
+}
+
+// hero section
+.hero {
+    background: linear-gradient(45deg, item("secondary-bg-color") 50%, item("gradient-left"));
+    display: flex;
+
+
+    .placement {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: row;
+
+
+        .button {
+            background-color: item(primary-colors);
+            text-decoration: none;
+            color: black;
+        }
+
+        .button:hover {
+            box-shadow: 1px 2px 15px item(primary-colors),
+                2px 2px 20px item(primary-light-colors);
+        }
+    }
+
+    .part {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+}
+
+// navigation page
+.page-2 {
+    .cut-1 {
+        .page-head {
+            color: #181717;
+        }
+    }
+
+    .cut-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .svg{
+
+    // }
+    // .each-other{
+
+    // }
+}
+
+
+
+// newsletter section
 .container {
     margin: 17% 8%;
-    background: linear-gradient(45deg, #201e10, black );
+    background: linear-gradient(45deg, #201e10, black);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem 7rem;
     border-radius: 2rem;
+    box-shadow: 1px 2px 15px black,
+        2px 2px 20px item(primary-light-colors);
 
     h1 {
         font-family: poppins;
@@ -36,12 +114,13 @@ body {
         color: white;
     }
 
-    form {
+    .form {
+        position: relative;
 
         input[type=email] {
             font-family: poppins;
             color: white;
-            background: linear-gradient(45deg, #11100b, #000000 ); 
+            background: linear-gradient(45deg, #11100b, #000000);
             // border: 1px solid #ff9900;
             border: 1px solid white;
             border-radius: 0.15rem;
@@ -49,10 +128,12 @@ body {
 
         input[type=email]:focus {
             border-color: #ff9900;
+            outline: none;
         }
 
 
-        button {
+        .subscribe {
+            position: absolute;
             background-color: #FFC200;
             border: none;
             font-family: poppins;
@@ -60,7 +141,7 @@ body {
             outline: none;
         }
 
-        button:hover {
+        .subscribe:hover {
             color: white;
             font-weight: 300;
         }

@@ -1,63 +1,97 @@
-@font-face {
-  font-family: poppins;
-  src: url(fonts/Poppins-Regular.ttf);
-}
-
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-color: #fdfff8;
+  background: #f8f8f8;
+  font-family: poppins;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .together {
+  display: flex;
+}
+
+.hero {
+  background: linear-gradient(45deg, #f8f8f8 50%, #ededf7);
+  display: flex;
+}
+.hero .placement {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+.hero .placement .button {
+  background-color: #FFC200;
+  text-decoration: none;
+  color: black;
+}
+.hero .placement .button:hover {
+  box-shadow: 1px 2px 15px #FFC200, 2px 2px 20px #FFEDB4;
+}
+.hero .part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-2 .cut-1 .page-head {
+  color: #181717;
+}
+.page-2 .cut-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   margin: 17% 8%;
   background: linear-gradient(45deg, #201e10, black);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 4rem 7rem;
   border-radius: 2rem;
+  box-shadow: 1px 2px 15px black, 2px 2px 20px #FFEDB4;
 }
-
 .container h1 {
   font-family: poppins;
   background-color: none;
   color: white;
 }
-
-.container form input[type=email] {
+.container .form {
+  position: relative;
+}
+.container .form input[type=email] {
   font-family: poppins;
   color: white;
   background: linear-gradient(45deg, #11100b, #000000);
   border: 1px solid white;
   border-radius: 0.15rem;
 }
-
-.container form input[type=email]:focus {
+.container .form input[type=email]:focus {
   border-color: #ff9900;
+  outline: none;
 }
-
-.container form button {
+.container .form .subscribe {
+  position: absolute;
   background-color: #FFC200;
   border: none;
   font-family: poppins;
   font-weight: bold;
   outline: none;
 }
-
-.container form button:hover {
+.container .form .subscribe:hover {
   color: white;
   font-weight: 300;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
